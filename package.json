@@ -13,5 +13,16 @@
   "devDependencies": {
     "chai": "^6.0.1",
     "mocha": "^11.7.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaaspt/node-ci-exercise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aaaspt/node-ci-exercise/issues"
+  },
+  "homepage": "https://github.com/aaaspt/node-ci-exercise#readme"
 }
