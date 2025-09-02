@@ -9,7 +9,7 @@ const add = (a, b) => {
   ////original
   //return a + b;
   ////eslint
-  //const result = a + b;
+  const result = a + b;
   //result = a + b;
   //return result;
   //CodeQL

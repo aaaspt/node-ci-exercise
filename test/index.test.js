@@ -1,4 +1,3 @@
-// test/index.test.js
 import add from '../src/index.js';
 import { assert } from 'chai';
 
