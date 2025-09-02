@@ -1,17 +1,23 @@
 {
   "name": "ci-exercise",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha test"
+    "start": "node app.js",
+    "test": "mocha test",
+    "lint": "npx eslint ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@eslint/js": "^9.0.0",
     "chai": "^6.0.1",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "install": "^0.13.0",
     "mocha": "^11.7.1"
   },
   "directories": {
@@ -24,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/aaaspt/node-ci-exercise/issues"
   },
-  "homepage": "https://github.com/aaaspt/node-ci-exercise#readme"
+  "homepage": "https://github.com/aaaspt/node-ci-exercise#readme",
+  "dependencies": {
+    
+  }
 }
