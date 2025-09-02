@@ -1,4 +1,4 @@
-import add from '../src/index.js';
+import { add } from '../src/index.js';
 import { assert } from 'chai';
 
 describe('add()', () => {
